@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="student-registration-form">
+        <!-- photo section -->
+      <div class="photo-section">
+        <img src="./image/signup.jpg" alt="signup-photo" />
+      </div>
+      <!-- form section -->
+      <div class="form-section">
+        <!-- form -->
+        <form action="">
+            <!-- heading 2 -->
+          <h2>STUDENT REGISTRATION FORM</h2>
+          <!-- first row -->
+          <div class="first-row">
+            <div class="name-part">
+              <label for="name">Name :</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="father-name-part">
+              <label for="father-name">Father Name :</label>
+              <input type="text" id="father-name" />
+            </div>
+          </div>
+          <!-- adress row -->
+          <div class="adress-row">
+            <label for="adress">Address :</label>
+            <input type="text" id="adress">
+          </div>
+          <!-- gender row -->
+          <div class="gender-row">
+            <label for="">Gender :</label>
+            <!-- radio male -->
+            <div class="radio-male">
+                <input type="radio" id="male" >
+                <label for="male">Male</label>
+            </div>
+            <!-- radio female -->
+            <div class="radio-female">
+                <input type="radio" id="female" >
+                <label for="female">Female</label>
+            </div>
+          </div>
+          <!-- state city -->
+          <div class="state-city">
+            <div class="state-part">
+                <label for="state">State :</label>
+                <select name="state" id="state-select">
+                    <option value=""></option>
+                    <option value="">America</option>
+                    <option value="">English</option>
+                </select>
+            </div>
+            <div class="city-part">
+                <label for="city">City :</label>
+                <select name="city" id="city-select">
+                    <option value=""></option>
+                    <option value="">Los Angeles</option>
+                    <option value="">Washington</option>
+                </select>
+            </div>
+          </div>
+          <!-- dob -->
+          <div class="dob-part">
+            <label for="DOB">DOB :</label>
+            <input type="text" name="DOB-1" id="DOB">
+          </div>
+          <!-- pincode -->
+          <div class="pincode-part">
+            <label for="pincode">Pincode :</label>
+            <input type="text" name="pincode-1" id="pincode">
+          </div>
+          <!-- course -->
+          <div class="course-part">
+            <label for="course">Course :</label>
+            <select name="coursee" id="course">
+                <option value=""></option>
+                <option value="">Computer Operator</option>
+                <option value="">Designer</option>
+                <option value="">Marketing</option>
+            </select>
+          </div>
+          <!-- email id -->
+          <div class="email-id-part">
+            <label for="email-id">Email ID :</label>
+            <input type="email" name="" id="email-id">
+          </div>
+          <!-- inputs for submit -->
+          <div class="submit">
+            <input type="submit" value="Reset All">
+            <input type="submit" value="Submit Form">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
